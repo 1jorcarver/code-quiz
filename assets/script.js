@@ -3,8 +3,8 @@ var startBtn = document.getElementById('start-btn');
 var questionEl = document.getElementById('question-container');
 var choicesEl = document.getElementById('choices');
 var questions = [
-    { q: 'What is blue?', c: ["Red", "Yellow", "Blue", "Green"], a: 'Blue'},
-    { q: 'What is green?', c: ["Red", "Yellow", "Blue", "Green"], a: 'Green'}
+    { q: 'What is JavaScript?', c: ["A coffee company", "A language from outerspace", "A website language", "Ancient writings"], a: 'A website language'},
+    { q: 'What is a function?', c: ["A local gathering", "A detailed list of events", "A fork in the road", "A function object"], a: 'Green'}
 ]
 var currentQuestion = 0;
 var instructionEl = document.getElementById('instructions');
