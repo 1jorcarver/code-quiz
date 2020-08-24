@@ -14,9 +14,15 @@
         <button class="high-score" id="high-score">View high scores</button>
         <h1 class="time">Time: <span id="countdown">0</span></h1>
     </div>
-    <div class="container">
-        <h1 class="challenge-title">Coding Quiz Challenge</h1>
-        <p class="instructions">Welcome to the Coding Quiz Challenge! The timed quiz covers JavaScript fundamentals.</b> Your high score will be stored for you to gauge your progress compared to your peers.</b> Incorrect answers will result in subtracted time from the clock.</p>
+    <div id="container">
+        <div id="question-container">Coding Quiz Challenge</div>
+        <div id="instructions">Welcome to the Coding Quiz Challenge! The timed quiz covers JavaScript fundamentals.</b> Your high score will be stored for you to gauge your progress compared to your peers.</b> Incorrect answers will result in subtracted time from the clock.</div>
+        <div class="btn-group hide" id="choices">
+            <button class="btn" id=choice0></button>
+            <button class="btn" id=choice1></button>
+            <button class="btn" id=choice2></button>
+            <button class="btn" id=choice3></button>
+        </div>
     </div>
     <div class="controls">
         <button id="start-btn">Start Quiz</button>
