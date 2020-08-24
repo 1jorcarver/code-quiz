@@ -24,7 +24,8 @@ I had help from TAs, course activities, and YouTube videos from Web Dev Simplifi
 ## Image
 The following image shows the web application's appearance and functionality:
 
-
+![Website screenshot](./assets/images/code-quiz-hp.png)
+![Website screenshot continued](./assets/images/code-quiz-mc.png)
 
 [Code Quiz Finished Project] (https://1jorcarver.github.io/code-quiz/)
 
