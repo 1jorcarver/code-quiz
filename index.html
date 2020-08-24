@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Code Quiz</title>
+    <title>Coding Quiz Challenge</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <header>
-        <h1 class="page-title">JavaScript Quiz</h1>
-    </header>
-    <main class="page-content" id="page-content">
-        <div class="trackers">
-            <button class="high-score">View high scores</button>
-            <p class="time">Time: <span id="count">0</span></p>
-        </div>
-
-    </main>
+    <div class="tracker">
+        <button class="high-score" id="high-score">View high scores</button>
+        <h1 class="time">Time: <span id="countdown">0</span></h1>
+    </div>
+    <div class="container">
+        <h1 class="challenge-title">Coding Quiz Challenge</h1>
+        <p class="instructions">Welcome to the Coding Quiz Challenge! The timed quiz covers JavaScript fundamentals.</b> Your high score will be stored for you to gauge your progress compared to your peers.</b> Incorrect answers will result in subtracted time from the clock.</p>
+    </div>
+    <div class="controls">
+        <button id="start-btn">Start Quiz</button>
+    </div>
 </body>
 
 <script src="./assets/script.js"></script>

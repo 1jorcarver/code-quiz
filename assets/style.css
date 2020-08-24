@@ -1,19 +1,32 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-    background: violet;
+button {
+    background-color: teal;
     color: white;
-    padding: 2px 2px;
-    border: 10px solid darkviolet;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 150px;
     font-size: 1rem;
-    text-align: center;
+}
+
+button:hover {
+    background-color: navy;
+    color: white;
+}
+
+.tracker {
+    margin: auto;
+    width: 100%;
+    height: 100px;
 }
 
 .high-score {
     float: left;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: navy;
     margin: 30px;
     border: none;
     background: none;
@@ -21,6 +34,26 @@ header {
 
 .time {
     float: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 30px;
 }
+
+.container {
+    margin: auto;
+    width: 75%;
+    height: 100px;
+    text-align: center;
+}
+
+.challenge-title {
+    font-size: 2rem;
+}
+
+.instructions {
+    font-size: 1rem;
+}
+
+.controls {
+    margin-top: 50px;
+    text-align: center; 
+};
