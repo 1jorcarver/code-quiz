@@ -18,7 +18,13 @@ Challenges of the project were as follows:
 ##Knowledge gained
 I learned how to 'hide' elements in JS, use a timer with setInterval, add elements to HTML through JS, utilize localStorage, and create a multiple choice quiz.
 
+##Contribution
+I had help from TAs, course activities, and YouTube videos from Web Dev Simplified.
+
 ##Image
 The following image shows the web application's appearance and functionality:
 
+
+
+[Code Quiz Finished Project] (https://1jorcarver.github.io/code-quiz/)
 
